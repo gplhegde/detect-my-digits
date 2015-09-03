@@ -1,6 +1,12 @@
-function g = sigmoid(z)
-%SIGMOID Compute sigmoid functoon
-%   J = SIGMOID(z) computes the sigmoid of z.
+function s = sigmoid(z)
+% Sigmoid function
+%
+% Inputs:
+%	z: input vector
+% Output:
+%	s: sigmoid of input vector
+% Usage:
+%	s = sigmoid(z);
 
-g = 1.0 ./ (1.0 + exp(-z));
+s = 1.0 ./ (1.0 + exp(-z));
 end
